@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+}
+form input{
+    background-color: beige;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+
+}
+form label{
+     color: aqua;
+     font-style: bold;
+}
+
+li{
+    font-style: italic;
+}
+aside{
+    float: ;
+
+}

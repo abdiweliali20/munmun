@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mual</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body style="background-color: black;">
     <div>
-        <h1>zubeir fashion</h1>
-        <p>zubeir fashion is a brand which owned by a couple,it deals with all types of clothes ie children men and
+        <h1 style="color: blue;background-color:black;font-weight: 100;">zubeir fashion</h1>
+        <p style="font-family: Arial, Helvetica, sans-serif;font-size: larger;">zubeir fashion is a brand which owned by a couple,it deals with all types of clothes ie children men and
             women
         </p>
         <img src="fashion.jpg" height="300px" width="300px">
@@ -18,11 +19,11 @@
         <img src="buu.jpg" height="300px" width="300px">
         <img src="th.jpg" height="300px" width="300px">
         <br>
-        <a href="https://www.fashionnova.com/">fashion nova</a>
+        <a href ="https://www.fashionnova.com/">fashion nova</a>
 
     </div>
 
-    <ol>
+   <fieldset> <ol>
         <h2>men clothes</h2>
         <li>trousers</li>
         <li>shirts</li>
@@ -41,30 +42,31 @@
         <li>shorts</li>
         <li>shirts</li>
     </ol>
+</fieldset>
     <dl>
-        <dl>zubeir fashion</dl>
+        <dl style="color: blue;font-size: larger;font-weight: 200;">zubeir fashion</dl>
         <dd>its a fashion brand which deals clothes</dd>
     </dl>
-    <ol>
-        <li>clothes</li>
+    <ol style="border: 4px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <li style="color: brown ;"">clothes</li>
         <ul>
             <li>trousers</li>
             <li>skirts</li>
             <li>shirts</li>
             <li>blouses</li>
         </ul>
-    </ol>
-    <ol>
-        <li>men clothes</li>
+    
+    
+        <li style="color: brown;">men clothes</li>
         <ul>
             <li>trousers</li>
             <li>shirts</li>
             <li>tshirts</li>
             <li>shorts</li>
         </ul>
-    </ol>
-    <ol>
-        <li>women clothes</li>
+    
+    
+        <li style="color: brown ;">women clothes</li>
         <ul>
             <li>blouse</li>
             <li>skirts</li>
@@ -97,17 +99,17 @@
         <tr>
             <td rowspan="3">skirt</td>
             <td>10</td>
-            <td>1000</td>
+            <td rowspan="3">1000</td>
         </tr>
         <tr>
             <!-- <td></td> -->
             <td>12</td>
-            <td></td>
+            <!-- <td></td> -->
         </tr>
         <tr>
             <!-- <td></td> -->
             <td>14</td>
-            <td></td>
+            <!-- <td></td> -->
         </tr>
         <tr>
             <td rowspan="3">shirt</td>
@@ -127,7 +129,7 @@
         <tr>
             <td rowspan="3">blouse</td>
             <td>10</td>
-            <td>1000</td>
+            <td rowspan="2">1000</td>
         </tr>
         <tr>
             <!-- <td></td> -->
@@ -145,7 +147,9 @@
 
 
     </table>
-    <form action="">
+
+
+  <fieldset> <form action="">
         <h2>registration form</h2>
         <label for="first name">first name</label>
         <input type="text"name="first name">
@@ -162,8 +166,19 @@
     <label for="comfirm password">onfirm password</label>
     <input type="password" name="corfirm password" id="">
     <br>
+    <label>Enter Your Gender </label>
+    <br>
+    <input type="radio"id="gender"name="gender"value="male"/>male
+    <br>
+    <input type="radio"id="gender"name="gender"value="female"/>female
+    <br>
+    <input type="radio"id="gender"name="gender"value="others"/>others
+    <br>
     <button type="submit">sign up</button>
     </form>
+</fieldset>
+
+    
 
 </body>
 

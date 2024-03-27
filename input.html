@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area of rectanggle</title>
+</head>
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+         text-align: center;
+         padding: 400px;
+    }
+    label{
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+    input {
+        font-size: 15px;
+        padding: 20px 15px;
+        border-radius: 4px;
+        background-color: blanchedalmond;
+        color: antiquewhite;
+        border: none;
+        cursor: pointer;
+
+    }
+    
+    
+
+</style>
+
+<body>
+    <form>
+        <label for="length">length</label>
+        <input type="text" id="length">
+
+        <label for="width">width</label>
+        <input type="text" id="width">
+
+        <button onclick="area()">calculate area</button>
+     </form>
+
+     <script>
+        function area(){
+            let length=parseFloat(document.getElementById("length").value);
+            let width=parseFloat(document.getElementById("width").value);
+            let area=( length + width )
+
+            alert("The perimeter of the rectangle;"+ area)
+            
+            
+        }
+     </script>
+
+</body>
+
+</html>
